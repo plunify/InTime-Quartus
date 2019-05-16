@@ -9,8 +9,8 @@
 #
 # Specify InTime and project paths
 #
-set yourintimetoolpath "C:/Program Files/Plunify/InTime/v2.6.11/bin/intime.exe"
-set yourproject "C:/Users/yourproject/eight_bit_uc.xpr"
+set yourintimetoolpath "/v2.6.11/bin/intime.exe"
+set yourproject "/yourproject/eight_bit_uc.xpr"
 ```
 ```Tcl
 #
@@ -25,7 +25,7 @@ set yourtoolchain "2018.2.0"
 # Specify the InTime Tcl script 
 # Download a sample from https://github.com/plunify/InTime-Vivado/tree/master/scripts/intime
 #
-set yourintimescript "C:/yourproject/intimeflow.tcl"
+set yourintimescript "/yourproject/intimeflow.tcl"
 ```
 
 
