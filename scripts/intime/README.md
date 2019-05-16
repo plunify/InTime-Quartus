@@ -16,4 +16,6 @@ flow run_recipe "hot_start"
 ```
 
 A more detailed version of the Tcl reference for InTime can be found at this [link](https://docs.plunify.com/intime/flow_properties.html)  
+2. `Configuration` contains sample scripts to setup and configure your InTime environment. Be sure to run them to setup the Vivado tools in InTime before using InTime. 
+
 
