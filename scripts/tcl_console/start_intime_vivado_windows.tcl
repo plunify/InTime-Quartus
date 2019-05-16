@@ -1,6 +1,6 @@
 #################################################################################
 #
-#	Tcl script to run InTime in Vivado Project Mode (for Linux)
+#	Tcl script to run InTime in Vivado Project Mode (for Window)
 #
 #################################################################################
 
@@ -12,8 +12,8 @@
 #
 # Specify InTime and project paths
 #
-set yourintimetoolpath "/home/dev2002/intime_v2.6.11_61343cb/intime.sh"
-set yourproject "/home/dev2002/plunify/examples/vivado/eight_bit_uc_xpr/eight_bit_uc.xpr"
+set yourintimetoolpath "C:/Program Files/Plunify/InTime/v2.6.11/bin/intime.exe"
+set yourproject "C:/Users/youraccount/plunify/examples/vivado/eight_bit_uc_xpr/eight_bit_uc.xpr"
 #
 # Specify your FPGA tool version
 # The following assumes that you have registered your tool in InTime. (If not, refer to https://docs.plunify.com/intime/configuration.html)
@@ -25,7 +25,7 @@ set yourtoolchain "2018.2.0"
 # To understand more about the Tcl API, refer to Flow Properties - https://docs.plunify.com/intime/flow_properties.html
 # Download a sample from https://github.com/plunify/InTime
 #
-set yourintimescript "/home/dev2002/run_hotstart.tcl"
+set yourintimescript "C:/yourproject/intimeflow.tcl"
 
 
 #################################################################################
@@ -33,6 +33,7 @@ set yourintimescript "/home/dev2002/run_hotstart.tcl"
 # Run InTime (do not change the following section)
 #
 #################################################################################
+#Do not change. This executes InTime 
 puts "Command Executed: \"$yourintimetoolpath\" -mode batch -platform minimal \
 			-project ${yourproject} \
 			-vendor_toolchain ${yourtool} \
