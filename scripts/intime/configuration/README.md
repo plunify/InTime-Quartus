@@ -5,20 +5,8 @@ You can either use the Vivado Tcl Console or the command-line terminal / Command
 
 ## Option A: Use Vivado Tcl Console
 1. Download `intime_install_FPGA_tools.tcl` & `configure_tools.tcl`
-2. Edit the `configure_tools.tcl` and specify the InTime installation path in the **yourintimetoolpath** variable.
 
-```Tcl
-#################################################################################
-#
-#	Tcl script to configure the environment for InTime 
-#
-#################################################################################
-
-# InTime installation path
-set yourintimetoolpath "intime.exe"
-```
-
-3. Edit the `intime_install_FPGA_tools.tcl`to specify the installation path to the FPGA toolchains and their respective licenses. Multiple toolchains can be configured at the same time.
+2. Edit the `intime_install_FPGA_tools.tcl`to specify the installation path to the FPGA toolchains and their respective licenses. Multiple toolchains can be configured at the same time.
 
 ```Tcl
 set yourtoolchainpath(0) "/mnt/Xilinx/Vivado/2018.2"
@@ -34,6 +22,18 @@ set yourtoolchainlicense(0) "/mnt/license_file.lic"
 # set yourtoolchainlicense(2) ""
 ```
 
+3. Edit the `configure_tools.tcl` and specify the InTime installation path in the **yourintimetoolpath** variable.
+
+```Tcl
+#################################################################################
+#
+#	Tcl script to configure the environment for InTime 
+#
+#################################################################################
+
+# InTime installation path
+set yourintimetoolpath "intime.exe"
+```
 
 4. Open the Vivado Tcl Console and enter 
 ```console
