@@ -47,6 +47,8 @@ source configure_tools.tcl
 ## Option B: Using a CLi
 1. Edit the `configure_tools.tcl` and specify the InTime installation path in the **yourintimetoolpath** variable.
 
+2. Open the command-line interface, and run the command
+
 **In Windows**
 
 ```console
