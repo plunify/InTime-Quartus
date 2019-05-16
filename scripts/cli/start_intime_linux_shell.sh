@@ -17,7 +17,7 @@ YOURINTIMESCRIPT=""
 # YOURPROJECT="/home/dev2002/plunify/examples/vivado/eight_bit_uc_xpr/eight_bit_uc.xpr"
 # YOURFPGATOOL="vivado"
 # YOURTOOLVERSION="2018.2.0"
-# YOURINTIMESCRIPT="/home/dev2002/intimeflow.tcl"
+# YOURINTIMESCRIPT="../intime/intimeflow.tcl"
 
 echo " ----------Plunify Pte Ltd----------------"
 echo " Starting InTime Shell Script..."
