@@ -25,7 +25,7 @@ set yourtoolchain "2018.2.0"
 # To understand more about the Tcl API, refer to Flow Properties - https://docs.plunify.com/intime/flow_properties.html
 # Download a sample from https://github.com/plunify/InTime-Vivado/tree/master/scripts/intime
 #
-set yourintimescript "intimeflow.tcl"
+set yourintimescript "../intime/intimeflow.tcl"
 
 
 #################################################################################
