@@ -30,6 +30,7 @@ set yourintimescript "/yourproject/intimeflow.tcl"
 ```
 
 2. Open the Vivado Tcl Console and source the script.
+
 ![alt text](https://github.com/plunify/InTime/blob/master/images/VivadoTclConsole_windows.png "Vivado Tcl Console - Windows") 
 
 3. Note that an InTime optimization script called [intimeflow.tcl](../intime/intimeflow.tcl) will be required. 
