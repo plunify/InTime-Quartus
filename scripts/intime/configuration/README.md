@@ -77,5 +77,6 @@ Change the above command to execute intime.sh instead. The output should be the 
 "/mnt/intime/intime.sh" -mode batch -platform minimal -s intime_install_FPGA_tools.tcl
 ```
 
+This shoud configure InTime to recognize where are the FPGA tools and licenses.
 
 For more information, please refer to InTime [documentation](https://docs.plunify.com/intime/configuration.html)
