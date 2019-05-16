@@ -48,9 +48,9 @@ $ intime.sh -mode batch -platform minimal -project yourproject.xpr -vendor_toolc
 "C:/intime.exe" -mode batch -platform minimal -project C:/yourproject.xpr -vendor_toolchain vivado -vendor_toolchain_version 2018.3.0 -s C:/intimeflow.tcl
 ```
 
-*Note* An InTime optimization script called [intimeflow.tcl](../intime/intimeflow.tcl) will be required.
+**_Note_** In both OS, an InTime optimization script called [intimeflow.tcl](../intime/intimeflow.tcl) will be required.
 
-### Arguments used:
+### Arguments Description:
 1. `intime.sh` or `intime.exe` - This is the location of intime.sh or intime.exe in your environment.
 2. `-mode batch` - Tells InTime to operate in batch mode.
 3. `-platform minimal` - Tells InTime to operate in non-GUI mode.
