@@ -37,7 +37,7 @@ flow run_recipe "hot_start"
 ```
 The sample flow runs 1 round containing 2 generated builds and does 1 build at a time. To customize this flow, refer to this [page](https://docs.plunify.com/intime/flow_properties.html). 
 
-### Option B - Run in a command-line terminal (Linux) or Command Prompt (Windows)
+### Option B - Run in a Command Line Interface (CLi)
 
 #### Linux
 
