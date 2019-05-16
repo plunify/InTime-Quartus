@@ -50,10 +50,16 @@ source configure_tools.tcl
 **In Windows**
 
 ```console
-"C:/Program Files/Plunify/InTime/v2.6.11/bin/intime.exe" -mode batch -platform minimal -s intime_install_FPGA_tools.tcl
+"C:/Program Files/Plunify/InTime/v2.6.11/bin/intime.exe" -mode batch -platform minimal 
+-s intime_install_FPGA_tools.tcl
 ```
 
 **In Linux**
-change the above command to execute intime.sh instead. The output should be the same as when executing in the Vivado Tcl Console.
+
+Change the above command to execute intime.sh instead. The output should be the same as when executing in the Vivado Tcl Console.
+```console
+"/mnt/intime/intime.sh" -mode batch -platform minimal -s intime_install_FPGA_tools.tcl
+```
+
 
 For more information, please refer to InTime [documentation](https://docs.plunify.com/intime/configuration.html)
