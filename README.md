@@ -14,5 +14,5 @@ For more information about InTime, go to [here](https://www.plunify.com/en/intim
 
 ## Requirements
 1. Latest version of InTime.
-2. Vivado with an appropriate license properly registered in InTime. If you have not done so, please refer to this [page](https://github.com/plunify/InTime-Vivado/tree/master/configuration)
+2. Vivado with an appropriate license properly registered in InTime. If you have not done so, please refer to this [page](scripts/intime/configuration)
 
