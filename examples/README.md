@@ -2,7 +2,7 @@
 
 ## List of examples
 
-1.  [Non-project mode](nonproject_mode/)
+### 1. [Non-project mode](nonproject_mode/)
 
 **Coming soon to InTime 2.7 onwards**
 
