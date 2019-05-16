@@ -1,3 +1,5 @@
+![alt text](images/Plunify_Logo_300.png)
+
 # Run InTime in Tcl Mode (Vivado)
 This repository contains scripts to run InTime in the Tcl Console or on the command-line. 
 
