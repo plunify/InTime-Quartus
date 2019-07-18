@@ -2,7 +2,7 @@
 
 ## Contents
 
-1. [`intimetclflow.tcl`](intimetclflow.tcl) is a sample script showing how to run InTime using Tcl instead of the GUI. Typically this script can be executed via a cli interface or via the Vivado Tcl Console.
+1. [`intimeflow.tcl`](intimetclflow.tcl) is a sample script showing how to run InTime using Tcl instead of the GUI. Typically this script can be executed via a cli interface or via the Vivado Tcl Console.
 
 ```Tcl
 # Sample script for InTime Optimization. Works Windows & Linux
