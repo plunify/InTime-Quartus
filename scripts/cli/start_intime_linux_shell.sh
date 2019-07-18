@@ -14,7 +14,7 @@ YOURINTIMESCRIPT=""
 
 # Example Values
 # YOURINTIMEPATH="/home/dev2002/intime_v2.6.11/intime.sh"
-# YOURPROJECT="/home/dev2002/plunify/examples/vivado/eight_bit_uc_xpr/eight_bit_uc.xpr"
+# YOURPROJECT="/home/dev2002/plunify/examples/quartusii/eight_bit_uc/eight_bit_uc.qpf"
 # YOURFPGATOOL="vivado"
 # YOURTOOLVERSION="2018.2.0"
 # YOURINTIMESCRIPT="../intime/intimeflow.tcl"
@@ -27,15 +27,15 @@ if [ -z "${YOURINTIMEPATH}" ]; then
     exit 1
 fi
 if [ -z "${YOURPROJECT}" ]; then
-	echo " [Error] Please specify your project file name, e.g. /mnt/project/project.xpr or dcp"
+	echo " [Error] Please specify your project file name, e.g. /mnt/project/project.qpf"
     exit 1
 fi
 if [ -z "${YOURFPGATOOL}" ]; then
-	echo " [Error] Please specify your tool, e.g vivado"
+	echo " [Error] Please specify your tool, e.g quartusii or quartuspp"
     exit 1
 fi
 if [ -z "${YOURTOOLVERSION}" ]; then
-	echo " [Error] Please specify a tool version number, e.g. 2018.2.0"
+	echo " [Error] Please specify a tool version number, e.g. 16.0.0"
     exit 1
 fi
 if [ -z "${YOURINTIMESCRIPT}" ]; then

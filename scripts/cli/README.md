@@ -24,9 +24,9 @@ YOURINTIMESCRIPT=""
 
 # Example Values
 # YOURINTIMEPATH="/home/dev2002/intime_v2.6.11/intime.sh"
-# YOURPROJECT="/home/dev2002/plunify/examples/vivado/eight_bit_uc_xpr/eight_bit_uc.xpr"
-# YOURFPGATOOL="vivado"
-# YOURTOOLVERSION="2018.2.0"
+# YOURPROJECT="/home/dev2002/plunify/examples/quartusii/eight_bit_uc/eight_bit_uc.qpf"
+# YOURFPGATOOL="quartusii"
+# YOURTOOLVERSION="16.0.0"
 # YOURINTIMESCRIPT="/home/dev2002/intimeflow.tcl"
 ```
 
@@ -38,14 +38,14 @@ $ ./start_intime_linux_shell.sh
 **Option B: Run CLi directly**
 
 ```console
-$ intime.sh -mode batch -platform minimal -project yourproject.xpr -vendor_toolchain vivado -vendor_toolchain_version 2018.3.0 -s intimeflow.tcl
+$ intime.sh -mode batch -platform minimal -project yourproject.qpf -vendor_toolchain quartusii -vendor_toolchain_version 16.0.0 -s intimeflow.tcl
 ```
 
 ### Windows
 
 **Run CLi directly**
 ```console
-"C:/intime.exe" -mode batch -platform minimal -project C:/yourproject.xpr -vendor_toolchain vivado -vendor_toolchain_version 2018.3.0 -s C:/intimeflow.tcl
+"C:/intime.exe" -mode batch -platform minimal -project C:/yourproject.qpf -vendor_toolchain quartusii -vendor_toolchain_version 16.0.0 -s C:/intimeflow.tcl
 ```
 
 **_Note_** In both OS, an InTime optimization script called [intimeflow.tcl](../intime/intimeflow.tcl) will be required.

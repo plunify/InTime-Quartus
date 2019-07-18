@@ -72,7 +72,7 @@ set yourtoolchainlicense(0) "/mnt/license_file.lic"
 
 **In Linux**
 
-Change the above command to execute intime.sh instead. The output should be the same as when executing in the Vivado Tcl Console.
+Change the above command to execute intime.sh instead. The output should be the same as when executing in the Quartus Tcl Console.
 ```console
 "/mnt/intime/intime.sh" -mode batch -platform minimal -s intime_install_FPGA_tools.tcl
 ```
