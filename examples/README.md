@@ -7,7 +7,7 @@ custom Tcl scripts to automatically try different InTime Recipes to keep InTime 
 
 The full explanation of how this works can be found in the application note [PIN003 Scripting Tcl in InTime](https://support.plunify.com/en/wp-content/uploads/sites/5/2017/10/Application-Notes_PIN003_Scripting_Tcl_in_InTime_v8.pdf).
 
-A full reference to Tcl commands supported in the console is found [here](https://support.plunify.com/en/doc/intime-doc/tcl-command-reference/). 
+A full reference guide to Tcl commands is found [here](https://support.plunify.com/en/doc/intime-doc/tcl-command-reference/). 
 
 ## How to run in InTime Tcl Console
 
