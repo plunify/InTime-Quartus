@@ -5,19 +5,19 @@
 This is an example of how to develop and run custom Tcl scripts to automate the InTime software. There are several ways of running InTime; some users like to use the graphical user interface and others prefer command-line scripting. Advanced users can create
 custom Tcl scripts to automatically try different InTime Recipes and just keep InTime running optimizations in the background.
 
-## Run in Intime Tcl Console
+## How to run in Intime Tcl Console
 
-1. Start InTIme and open the 
+1. Start InTIme and open the project 
 ```
 ./autorun_multi_recipes/eight_bit_16p0_std/eight_bit_uc.qpf
 ```
 
-2. In Intime Tcl Console
+2. Go to the Intime Tcl Console, type in
 ```
 source ../autorun_multi_recipes.tcl
 ```
 
-## Run in command-line
+## How to run in command-line
 1. Change directory to `autorun_multi_recipes/eight_bit_uc_16p0_std`
 
 ```
@@ -35,5 +35,3 @@ For Window
 ```
 <intime_installed_dir>\bin\intime.exe -project eight_bit_uc.qpf -mode batch -s ../autorun_multi_recipes.tcl -toolchain quartusii -toolchain_version 16.0.0 -tclargs “-output_dir <output directory>”
 ```
-
-
