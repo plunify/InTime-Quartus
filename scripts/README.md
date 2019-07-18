@@ -4,4 +4,4 @@
 
 [intime](intime/) - InTime specific sample scripts to optimize designs or configuration
 
-[tcl_console](tcl_console/) - Collection of scripts to InTime from the Vivado Tcl Console interface. Supports both Linux and Windows.
+[tcl_console](tcl_console/) - Collection of scripts to InTime from the Quartus Tcl Console interface. Supports both Linux and Windows.

@@ -1,21 +1,21 @@
 # Configure FPGA toolchains in InTime with Tcl
 
-You can either use the Vivado Tcl Console or the command-line terminal / Command Prompt to do this. 
+You can either use the Quartus Tcl Console or the command-line terminal / Command Prompt to do this. 
 
 
-## Option A: Use Vivado Tcl Console
+## Option A: Use Quartus Tcl Console
 1. Download [intime_install_FPGA_tools.tcl](intime_install_FPGA_tools.tcl) & [configure_tools.tcl](configure_tools.tcl)
 
 2. Edit the `intime_install_FPGA_tools.tcl`to specify the installation path to the FPGA toolchains and their respective licenses. Multiple toolchains can be configured at the same time.
 
 ```Tcl
-set yourtoolchainpath(0) "/mnt/Xilinx/Vivado/2018.2"
+set yourtoolchainpath(0) "/mnt/opt/altera/16.0.0/quartus"
 set yourtoolchainlicense(0) "/mnt/license_file.lic"
 
 #
 # If you have multiple toolchains, use an array to specify them
 #
-# set yourtoolchainpath(1) "/mnt/Xilinx/Vivado/2017.4"
+# set yourtoolchainpath(1) "/mnt/opt/altera/16.1.0/quartus"
 # set yourtoolchainlicense(1) "/mnt/license_file.lic"
 
 # set yourtoolchainpath(2) ""
@@ -48,13 +48,13 @@ source configure_tools.tcl
 1. Edit the [intime_install_FPGA_tools.tcl](intime_install_FPGA_tools.tcl) to specify the installation path to the FPGA toolchains and their respective licenses. Multiple toolchains can be configured at the same time.
 
 ```Tcl
-set yourtoolchainpath(0) "/mnt/Xilinx/Vivado/2018.2"
+set yourtoolchainpath(0) "/mnt/opt/altera/16.0.0/quartus"
 set yourtoolchainlicense(0) "/mnt/license_file.lic"
 
 #
 # If you have multiple toolchains, use an array to specify them
 #
-# set yourtoolchainpath(1) "/mnt/Xilinx/Vivado/2017.4"
+# set yourtoolchainpath(1) "/mnt/opt/altera/16.1.0/quartus"
 # set yourtoolchainlicense(1) "/mnt/license_file.lic"
 
 # set yourtoolchainpath(2) ""

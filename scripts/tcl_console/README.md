@@ -3,7 +3,7 @@
 **Note** If you have not configured your InTime environment, please go to [configuration](../intime/configuration/)
 
 ## Steps
-1. Edit [`start_intime_vivado_windows.tcl`](start_intime_quartus_windows.tcl) or [`start_intime_quartus_linux.tcl`](start_intime_quartus_linux.tcl) script to configure the environment, e.g. project path etc. 
+1. Edit [`start_intime_quartus_windows.tcl`](start_intime_quartus_windows.tcl) or [`start_intime_quartus_linux.tcl`](start_intime_quartus_linux.tcl) script to configure the environment, e.g. project path etc. 
 
 ```Tcl
 #
