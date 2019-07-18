@@ -10,34 +10,39 @@ use the graphical user interface and others prefer command-line scripting. Advan
 custom Tcl scripts to automatically try different InTime Recipes and just keep InTime running
 optimizations in the background.
 
-```Run in Intime Tcl Console
+## Run in Intime Tcl Console
 
 1. Start InTIme and open the 
+```
 ./autorun_multi_recipes/eight_bit_quartusii_16p0_std/eight_bit_us.qpf
-
+```
 
 2. In Intime Tcl Console
+```
 source ../autorun_multi_recipes.tcl
 ```
 
-```Run in commend-line
+## Run in commend-line
 1. Change directory to autorun_multi_recipes/eight_bit_uc_quartusii_16p0_std
 
+```
 cd autorun_multi_recipes/eight_bit_uc_quartusii_16p0_std
+```
 
 2. Run the following command in command-line
 
-For Linux 
+For Linux
+``` 
 <intime_installed_dir>/intime.sh -project eight_bit_uc.qpf -mode batch -
 s ../autorun_multi_recipes.tcl -toolchain quartusii -toolchain_version 16.0.0 -
 tclargs “-output_dir <output directory>”
+```
 
 For Window 
+```
 <intime_installed_dir>\bin\intime.exe -project eight_bit_uc.qpf -mode batch -
 s ../autorun_multi_recipes.tcl -toolchain quartusii -toolchain_version 16.0.0 -
 tclargs “-output_dir <output directory>”
-
-...
-...
 ```
- 
+
+
