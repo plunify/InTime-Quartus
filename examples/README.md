@@ -5,14 +5,14 @@
 This is an example of how to develop and run custom Tcl scripts to automate the InTime software. There are several ways of running InTime; some users like to use the graphical user interface and others prefer command-line scripting. Advanced users can create
 custom Tcl scripts to automatically try different InTime Recipes and just keep InTime running optimizations in the background.
 
-## How to run in Intime Tcl Console
+## How to run in InTime Tcl Console
 
-1. Start InTIme and open the project 
+1. Start InTime and open the project 
 ```
 ./autorun_multi_recipes/eight_bit_16p0_std/eight_bit_uc.qpf
 ```
 
-2. Go to the Intime Tcl Console, type in
+2. Go to the InTime Tcl Console, type 
 ```
 source ../autorun_multi_recipes.tcl
 ```
