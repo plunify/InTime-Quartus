@@ -14,7 +14,7 @@ optimizations in the background.
 
 1. Start InTIme and open the 
 ```
-./autorun_multi_recipes/eight_bit_quartusii_16p0_std/eight_bit_us.qpf
+./autorun_multi_recipes/eight_bit_16p0_std/eight_bit_us.qpf
 ```
 
 2. In Intime Tcl Console
@@ -23,10 +23,10 @@ source ../autorun_multi_recipes.tcl
 ```
 
 ## Run in commend-line
-1. Change directory to `autorun_multi_recipes/eight_bit_uc_quartusii_16p0_std`
+1. Change directory to `autorun_multi_recipes/eight_bit_uc_16p0_std`
 
 ```
-cd autorun_multi_recipes/eight_bit_uc_quartusii_16p0_std
+cd autorun_multi_recipes/eight_bit_uc_16p0_std
 ```
 
 2. Run the following command in command-line
