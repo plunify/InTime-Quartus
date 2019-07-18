@@ -2,13 +2,10 @@
 
 ## List of examples
 
-### 1. [autorun-multi-recipes](autorun_multi_recipes/)
+### [autorun-multi-recipes](autorun_multi_recipes/)
 
-This is an example of how to develop and run custom Tcl
-scripts to automate the InTime software. There are several ways of running InTime; some users like to
-use the graphical user interface and others prefer command-line scripting. Advanced users can create
-custom Tcl scripts to automatically try different InTime Recipes and just keep InTime running
-optimizations in the background.
+This is an example of how to develop and run custom Tcl scripts to automate the InTime software. There are several ways of running InTime; some users like to use the graphical user interface and others prefer command-line scripting. Advanced users can create
+custom Tcl scripts to automatically try different InTime Recipes and just keep InTime running optimizations in the background.
 
 ## Run in Intime Tcl Console
 
@@ -22,7 +19,7 @@ optimizations in the background.
 source ../autorun_multi_recipes.tcl
 ```
 
-## Run in commend-line
+## Run in command-line
 1. Change directory to `autorun_multi_recipes/eight_bit_uc_16p0_std`
 
 ```
