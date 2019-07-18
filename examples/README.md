@@ -2,7 +2,7 @@
 
 ## List of examples
 
-### 1. [Autorun-multi-recipes](autorun_multi_recipes/)
+### 1. [autorun-multi-recipes](autorun_multi_recipes/)
 
 This is an example of how to develop and run custom Tcl
 scripts to automate the InTime software. There are several ways of running InTime; some users like to
@@ -23,7 +23,7 @@ source ../autorun_multi_recipes.tcl
 ```
 
 ## Run in commend-line
-1. Change directory to autorun_multi_recipes/eight_bit_uc_quartusii_16p0_std
+1. Change directory to `autorun_multi_recipes/eight_bit_uc_quartusii_16p0_std`
 
 ```
 cd autorun_multi_recipes/eight_bit_uc_quartusii_16p0_std
@@ -33,16 +33,12 @@ cd autorun_multi_recipes/eight_bit_uc_quartusii_16p0_std
 
 For Linux
 ``` 
-<intime_installed_dir>/intime.sh -project eight_bit_uc.qpf -mode batch -
-s ../autorun_multi_recipes.tcl -toolchain quartusii -toolchain_version 16.0.0 -
-tclargs “-output_dir <output directory>”
+<intime_installed_dir>/intime.sh -project eight_bit_uc.qpf -mode batch -s ../autorun_multi_recipes.tcl -toolchain quartusii -toolchain_version 16.0.0 -tclargs “-output_dir <output directory>”
 ```
 
 For Window 
 ```
-<intime_installed_dir>\bin\intime.exe -project eight_bit_uc.qpf -mode batch -
-s ../autorun_multi_recipes.tcl -toolchain quartusii -toolchain_version 16.0.0 -
-tclargs “-output_dir <output directory>”
+<intime_installed_dir>\bin\intime.exe -project eight_bit_uc.qpf -mode batch -s ../autorun_multi_recipes.tcl -toolchain quartusii -toolchain_version 16.0.0 -tclargs “-output_dir <output directory>”
 ```
 
 
