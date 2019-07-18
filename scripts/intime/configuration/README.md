@@ -44,7 +44,7 @@ source configure_tools.tcl
 
 ![alt text](https://github.com/plunify/InTime/blob/master/images/Vivado_tcl_console_tool_list.png)
 
-## Option B: Using a CLi
+## Option B: Using a Command Line
 1. Edit the [intime_install_FPGA_tools.tcl](intime_install_FPGA_tools.tcl) to specify the installation path to the FPGA toolchains and their respective licenses. Multiple toolchains can be configured at the same time.
 
 ```Tcl
