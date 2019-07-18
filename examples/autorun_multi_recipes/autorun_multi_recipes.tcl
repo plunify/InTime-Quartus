@@ -105,7 +105,7 @@ foreach current_recipe $recipes_list {
         set best_revision_tns    [ strategy results -field "TNS" ]
         set best_revision_wslack [ strategy results -field "Worst Slack" ]
         puts "-> Best result in job \($job_id\) is $best_revision_name revision with TNS = $best_revision_tns and Worst Slack = $best_revision_wslack "
-        if { [is_job_met_criteria $job_id $end_tns_goal $end_wns_goal] } {
+        if { [is_job_met_criteria $job_id "" 0 "speed_tns" $end_tns_goal] } {
             puts "-> Goal met! .. exiting optimization"
             set flow_continue 0
         }
