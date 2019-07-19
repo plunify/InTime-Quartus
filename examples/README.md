@@ -174,7 +174,7 @@ When the recipe runs are done, the results will be inside the output directory.
 
 Under the output directory, you should see pass or fail file. If the end goal is met, you should able to see pass file in the output directory. Otherwise, you should see a fail file instead. 
 
-The best_<job_id>_<strategy_name>.tcl script is an  Tcl script which reproduces the best timing result among the generated strategies. Meanwhile, the folder export_strategies_tcl contains the exported strategy Tcl scripts of all the other strategies that are compiled successfully. (Note that the output directory is cleaned up whenever this example script is executed. Please back up this folder if necessary.)
+The ```best_<job_id>_<strategy_name>.tcl``` script is an  Tcl script which reproduces the best timing result among the generated strategies. Meanwhile, the folder export_strategies_tcl contains the exported strategy Tcl scripts of all the other strategies that are compiled successfully. (Note that the output directory is cleaned up whenever this example script is executed. Please back up this folder if necessary.)
 
 ```tcl
 # Export best strategy in tcl 
