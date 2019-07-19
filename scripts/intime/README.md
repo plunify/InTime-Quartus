@@ -15,9 +15,7 @@ flow set control_create_bitstreams false
 flow run_recipe "hot_start"
 ```
 
-A more detailed version of the Tcl reference for InTime can be found at this [link](https://docs.plunify.com/intime/flow_properties.html) 
-
-
 [Configuration](configuration/) folder contains sample scripts to setup and configure your InTime environment. Be sure to run them to setup the Quartus tools before using InTime. 
 
-
+A detailed version of the Tcl reference for InTime can be found [here](https://support.plunify.com/en/doc/intime-doc/tcl-command-reference/).
+Additional description of the flow properties can be found [here](https://docs.plunify.com/intime/flow_properties.html).
