@@ -2,7 +2,7 @@
 
 ## Contents
 
-[simple/intimeflow.tcl](simple/intimeflow.tcl) is a sample script showing how to run InTime using Tcl instead of the GUI. Typically this script can be executed via a cli interface or via the Vivado Tcl Console.
+[simple/intimeflow.tcl](simple/intimeflow.tcl) is a sample script showing how to run InTime using Tcl instead of the GUI. Typically this script can be executed via a cli interface.
 
 ```Tcl
 # Sample script for InTime Optimization. Works Windows & Linux
