@@ -5,4 +5,5 @@ flow set runs_per_round 2
 flow set rounds 1
 flow set concurrent_runs 1
 flow set control_create_bitstreams false
+flow load_recipe "hot_start"
 flow run_recipe "hot_start"
