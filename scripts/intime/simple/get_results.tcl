@@ -9,13 +9,9 @@
 # Usage :
 #    1. Via the InTime Tcl console
 #       % source <script.tcl>
-#       Or
-#       % source_with_args autorun_multi_recipes.tcl -output_dir <output_dir>
 #
 #    2. Via Command-line
-#       % intime.sh -mode batch -project <proj> -s autorun_multi_recipes.tcl
-#       Or 
-#       % intime.sh -mode batch -project <proj> -s autorun_multi_recipes.tcl -tclargs "-output_dir <output_dir>"
+#       % intime.sh -mode batch -platform minimal -s <script.tcl>
 #----------------------------------------------------------------------
 
 # Clear the active results set and add all results of the current project
