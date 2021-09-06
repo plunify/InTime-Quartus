@@ -20,12 +20,14 @@ results add all
 
 # Get the number of successful compilations
 set numSuccess [results summary success -count]
+# 0=Goal was not met, 1=Goal was met
+set isGoalMet [results goal_met]
 # Get a quick summary
 results summary
 # Get the top 10 results in terms of TNS into a list
 # To return all results, use: results summary all -list all_types -metric wns -id
 # To return the top 10 results, use: results summary top10 -list all_types -metric wns -id
-set resultsList [results summary top10 -list -all_types -metric wns -id]
+set resultsList [results summary top10 -list -leaf -metric wns -id]
 # Returns a Tcl list like this: "2:hotstart_001" "1:eight_bit_uc_nonproj" "1:placement_1" "2:placement_1"
 
 # Start examining the best result
